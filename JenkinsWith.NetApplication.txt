@@ -1,0 +1,2 @@
+Jenkins With .Net application:
+https://blog.couchbase.com/continuous-deployment-with-jenkins-and-net/

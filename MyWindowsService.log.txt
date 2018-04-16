@@ -1,0 +1,27 @@
+OnStart:
+4/16/2018 11:51:15 AM
+Excpetion:
+Could not bootstrap - check inner exceptions for details.
+   at Couchbase.Core.ClusterController.CreateBucket(String bucketName, String password)
+   at Couchbase.ClusterHelper.<GetBucket>b__0(String name)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Couchbase.ClusterHelper.GetBucket(String bucketName)
+   at MyWindowsService.Service1.LogToCouchbase(List`1 lines) in C:\Dell_Jenkins_Workspace\workspace\MyDotnet\src\MyWindowsService\MyWindowsService\Service1.cs:line 70
+OnStop:
+4/16/2018 11:56:11 AM
+Excpetion:
+Could not bootstrap - check inner exceptions for details.
+   at Couchbase.Core.ClusterController.CreateBucket(String bucketName, String password)
+   at Couchbase.ClusterHelper.<GetBucket>b__0(String name)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Couchbase.ClusterHelper.GetBucket(String bucketName)
+   at MyWindowsService.Service1.LogToCouchbase(List`1 lines) in C:\Dell_Jenkins_Workspace\workspace\MyDotnet\src\MyWindowsService\MyWindowsService\Service1.cs:line 70
+OnStart:
+4/16/2018 11:57:05 AM
+Excpetion:
+Could not bootstrap - check inner exceptions for details.
+   at Couchbase.Core.ClusterController.CreateBucket(String bucketName, String password)
+   at Couchbase.ClusterHelper.<GetBucket>b__0(String name)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Couchbase.ClusterHelper.GetBucket(String bucketName)
+   at MyWindowsService.Service1.LogToCouchbase(List`1 lines) in C:\Dell_Jenkins_Workspace\workspace\MyDotnet\src\MyWindowsService\MyWindowsService\Service1.cs:line 70
